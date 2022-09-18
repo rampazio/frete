@@ -1,42 +1,101 @@
-
 * {
-    font-family:Verdana, Geneva, sans-serif;
-    font-size:12px;
-    background: rgb(225, 202, 214);
-    color:rgb(20, 15, 15);
-}
- 
-.titulo {
-    box-align:center;
-    color: rgb(79, 216, 33);
-    font-family:Verdana, Geneva, sans-serif;
-    font-size:35px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    background: #cccccc;
+    color: rgb(20, 15, 15);
+    
 }
 
-ul {
-    margin: 0;
-    padding:0;
+#banner{
+
+width: 99%;
+height: 300px;
+padding: 0.5%;
+
+
+
+
+
 }
- 
+
+.titulo {
+    margin: 10px;
+    padding: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background: rgb(19, 182, 125);
+    color: rgb(114, 255, 43);
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 35px;
+
+    
+    border: 10px solid rgb(141, 18, 18);
+  
+}
+
+
+
+.watsapp {
+    list-style: none;
+    margin: 10px;
+    display: inline;
+    text-align: center;
+}
+
+.watsapp button {
+
+    padding: 5px 15px;
+    margin: 50;
+    border: 02px solid rgb(252, 243, 243);
+    background: rgb(52, 12, 161);
+    text-decoration: none;
+    color: rgb(205, 183, 183);
+    /* cantos arredondados */
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 25px;
+
+}
+
+
+.watsapp button:hover{
+    cursor:pointer;
+    text-align: center;
+    background: rgb(14, 5, 5);
+    color: rgb(233, 212, 212);
+    border-color: #000;
+}
+
+
+
+
+.menuSuperior{
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+
 li {
-    list-style: none; 
+    list-style: none;
     margin: 5px;
     display: inline;
 }
+
 li a {
-    padding: 5px 10px; 
-    margin:0;
-    border: 0px solid #f00; 
-    background: #903;
+    padding: 5px 10px;
+    margin: 0;
+    border: 0px solid #f00;
+    background: rgb(52, 12, 161);
     text-decoration: none;
-    color:#FFF;
+    color: rgb(205, 183, 183);
     /* cantos arredondados */
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
+
 li a:hover {
-    background: #CCC;
-    color: #000; 
+    background: rgb(14, 5, 5);
+    color: rgb(233, 212, 212);
     border-color: #000;
 }
