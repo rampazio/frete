@@ -1,45 +1,72 @@
-* {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 12px;
-    background: #cccccc;
-    color: rgb(20, 15, 15);
+header {
+    background: #ddd5d5;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+width: 940px;
+margin: 0% auto;
+
+}
+
+.titulo{
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1px;
+    margin-left: 100px;
+    padding: 8px;
+    color: rgb(246, 12, 12);
+    font-weight: bold;
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+    right: 15px;
+    
+
+}
+
+nav {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-transform: uppercase;
+    color: rgb(68, 45, 105);
+    font-weight: bold;
+    font-size: 22px;
+    
+    
     
 }
 
-#banner{
 
-width: 99%;
-height: 300px;
-padding: 0.5%;
-
-
-
-
-
-}
-
-.titulo {
-    margin: 10px;
-    padding: 20px;
-    padding-top:10px;
-    padding-bottom: 10px;
-    background: rgb(19, 182, 125);
-    color: rgb(114, 255, 43);
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 35px;
-
-    
-    border: 10px solid rgb(141, 18, 18);
-  
-}
 
 
 
 .watsapp {
     list-style: none;
     margin: 10px;
-    display: inline;
-    text-align: center;
+    display: inline-block;
+    
+
 }
 
 .watsapp button {
@@ -54,48 +81,112 @@ padding: 0.5%;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 25px;
-
+    display: inline-block;
+    
 }
 
 
-.watsapp button:hover{
-    cursor:pointer;
+.watsapp button:hover {
+    cursor: pointer;
     text-align: center;
     background: rgb(14, 5, 5);
     color: rgb(233, 212, 212);
     border-color: #000;
+    display: inline-block;
 }
 
+.servicosLista{
+    width: 940px;
+    margin: 0px auto;
+    
 
-
-
-.menuSuperior{
-    text-align:center;
-    margin: 0;
-    padding: 0;
 }
 
-li {
-    list-style: none;
-    margin: 5px;
-    display: inline;
-}
+.servicosLista li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 1% 1.5%;
+    border-radius: 30px;
+    border: 3px solid #000;
+    
 
-li a {
+    vertical-align: top;
     padding: 5px 10px;
-    margin: 0;
-    border: 0px solid #f00;
-    background: rgb(52, 12, 161);
-    text-decoration: none;
-    color: rgb(205, 183, 183);
-    /* cantos arredondados */
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    box-sizing: border-box;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    background: #96ad8e   
 }
 
-li a:hover {
-    background: rgb(14, 5, 5);
-    color: rgb(233, 212, 212);
-    border-color: #000;
+.servicosLista li:hover{
+    border: 3px solid #40d010;
 }
+
+
+
+.servicosLista h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+footer{
+    
+    background: url('./img/back.jpg');
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+  
+}
+
+footer p{
+    text-align: right;
+    margin: 0px 20px;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+}
+
+
+
+
+.fotocaminhao{
+    width: 940px;
+    margin: 0px auto;
+    display: inline-block;
+
+}
+
+.texto{
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 20px;
+    margin-left: 50px;
+    
+}
+.texto h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 18px;
+
+}
+.texto li{
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    list-style-type: disc;
+
+
+}
+
+
+.fotocaminhao img{
+    display: inline-block;
+
+}
+
+
+
